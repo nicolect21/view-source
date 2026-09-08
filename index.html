@@ -2,56 +2,64 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>View Source Project</title>
+    <meta charset="utf-8">
+    <title>View Source Project</title>
 
-  
 <style>
-  body {
-    font-family: Helvetica, Arial, sans-serif;
-    background-color: black;
-    color: white;
-    margins: 40px;
-  }
+    body {
+        font-family: Helvetica, Arial, sans-serif;
+        background-color: black;
+        color: white;
+        margin: 30px;
+    }
 
-  div {
-    font-size: 45px;
-    font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
+    div {
+        font-size: 25px;
+        margin-top: 30px;
+        padding-right: 6px;
+        display: inline-block;
+    }
 
-  h1 {
-    font-size: 180px;
-    letter-spacing: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+    h1 {
+        font-size: 150px;
+        letter-spacing: 20px;
+        margin-top: 5px;
+        margin-left: 250px;
+        font-weight:bolder;
+    }
 
-  .offset{
-    margin-left: 180px;
-    transform: rotate (-4deg);
-  }
+    .offset {
+        transform: rotate(-4deg);
+        font-weight: bold;
+    }
 
-  h1 span {
-    display: inline-block;
-    transform: rotate (12deg);
-  }
+    h1 span {
+        display: inline-block;
+        transform: rotate(12deg);
+    }
 
 </style>  
 </head>
 
 <body>
 
-  <div>design</div>
-  <div>design</div>
-  <div>design</div>
-  
-  <h1>
-    D<span>I</span><span style="transform: rotate (-12deg);">V</span><span>E</span><span>R</span><span>S</span><span>I</span><span>T</span><span>Y</span>
-  </h1>
-  <div class="offset">thrives with</div>
-  
+    <div>design</div>
+
+    <div>
+        <p class="offset">thrives</p>
+        <p class="offset">thrives</p> 
+        <p class="offset">thrives</p> 
+        <p class="offset">thrives</p>
+        <p class="offset">thrives</p>
+        <p class="offset">thrives</p> 
+    </div>
+ 
+    <div>with</div>
+
+    <h1>
+        D<span style="color:red;">I</span><span style="transform:rotate(-12deg); color:darkorange;">V</span>E<span style="color:yellow;">R</span><span style="transform:rotate(-12deg); color:chartreuse;">S</span>I<span style="color:dodgerblue;">T</span><span style="transform:rotate(-12deg); color:darkviolet;">Y</span>
+    </h1>
+
 </body>
 
 </html>
